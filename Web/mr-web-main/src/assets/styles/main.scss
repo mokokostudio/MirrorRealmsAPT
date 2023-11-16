@@ -1,0 +1,73 @@
+@import './base.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Microsoft YaHei !important;
+  font-size: 14px;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  // overflow: hidden;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.norem-app-wrapper {
+  position: relative;
+  // max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.swiper-page {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-page-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.page-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20vh;
+}
+
+.flex {
+  display: flex;
+}

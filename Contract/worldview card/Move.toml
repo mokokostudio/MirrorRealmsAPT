@@ -1,0 +1,17 @@
+[package]
+name = "MR-Card"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MR = "_"
+
+[dev-addresses]
+MR = "0x1235"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+[dev-dependencies]
