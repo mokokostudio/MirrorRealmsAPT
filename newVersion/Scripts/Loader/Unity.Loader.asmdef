@@ -1,0 +1,27 @@
+{
+    "name": "Unity.Loader",
+    "rootNamespace": "ET",
+    "references": [
+        "Unity.ThirdParty",
+        "Unity.Core",
+        "HybridCLR.Runtime",
+        "MemoryPack",
+        "BetterStreamingAssets",
+        "YooAsset",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.Timeline"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
